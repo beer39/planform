@@ -1,0 +1,72 @@
+@import "reset.css";
+
+
+@font-face {
+    font-family: jost-500;
+    src: url("../fonts/jost/Jost-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: jost-600;
+    src: url("../fonts/jost/Jost-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: inter-300;
+    src: url("../fonts/inter/Inter-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: inter-400;
+    src: url("../fonts/inter/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: inter-500;
+    src: url("../fonts/inter/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: inter-600;
+    src: url("../fonts/inter/Inter-SemiBold.ttf") format("truetype");
+}
+
+h2 {
+    font-family: inter-600;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 52px;
+}
+button {
+    font-size: 14px;
+    font-family: inter-500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #EB8000;
+    transition: transform 0.2s;
+}
+button:active {
+    transform: scale(0.95);
+}
+.btn-green {
+    color: #fff;
+    background: #279134;
+    border-color: #279134;
+}
+.btn-orange {
+    color: #EB8000;
+    background: transparent;
+    border-color: #EB8000;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 460px) {
+    .container {
+        width: 320px;
+    }
+    h2 {
+        font-family: inter-500;
+        font-size: 28px;
+        padding-top: 25px;
+        line-height: 40px;
+    }
+}
